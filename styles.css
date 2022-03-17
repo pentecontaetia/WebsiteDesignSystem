@@ -1,0 +1,119 @@
+#title {
+    text-align: center;
+}
+
+.section {
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section h2 {
+    margin-left: 5%;
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 3%;
+    text-shadow: 2px 2px white;
+    opacity: 0.7;
+}
+
+.color:hover {
+    border-radius: 30%;
+    opacity: 1.0;
+    font-size: large;
+}
+
+#steelblue {
+    background-color: steelblue;
+}
+
+#skyblue {
+    background-color: skyblue;
+}
+
+#tomato {
+    background-color: tomato;
+}
+
+#springgreen {
+    background-color: springgreen;
+}
+
+.container {
+    position: relative;
+    left: 140px;
+}
+
+.section #amatic {
+    font-family: "Amatic SC", cursive;
+}
+
+.section #dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+.section #roboto {
+    font-family: "Roboto Mono", monospace;
+}
+
+.section #source {
+    font-family: "Source Code Pro", monospace;
+}
+
+.section h3 {
+    text-decoration: underline;
+}
+
+.font {
+    display: inline-block;
+    background-color: lightblue;
+    padding-left: 30px;
+}
+
+#subheadings h2 {
+    text-align: left;
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "Roboto Mono", monospace;
+}
+
+#subheadings li:hover {
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "Roboto Mono", monospace;
+    color: red;
+}
+
+#main-headings h1 {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto Mono", monospace;
+}
+
+#main-headings li:hover {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto Mono", monospace;
+    color: red;
+}
+
+#paragraphs p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Dancing Script", cursive;
+}
+
+#paragraphs li:hover {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Dancing Script", cursive;
+    color: red;
+}
